@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@mina/core': workspace:^0.0.2
+  '@mina/core': ^0.0.3
   microbundle: ^0.15.1
 
 dependencies:

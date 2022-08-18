@@ -1,1 +1,0 @@
-{"version":3,"file":"core.js","sources":["index.ts"],"sourcesContent":["const data: string = 'I m Core';\nexport {\n    data,\n}\nexport default data;"],"names":[],"mappings":"aAAqB,2BAAA"}
