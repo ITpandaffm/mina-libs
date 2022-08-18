@@ -1,6 +1,6 @@
 {
   "name": "@mina/cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "> TODO: description",
   "author": "ffm <fengfuming2007@126.com>",
   "homepage": "https://github.com/ITpandaffm/mina#readme",
@@ -28,7 +28,7 @@
     "url": "https://github.com/ITpandaffm/mina/issues"
   },
   "dependencies": {
-    "@mina/core": "^0.0.2",
+    "@mina/core": "^0.0.3",
     "microbundle": "^0.15.1"
   },
   "gitHead": "303b5836796d44bd36109da7b915dfaa9201e7d6"
