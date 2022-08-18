@@ -1,0 +1,34 @@
+{
+  "name": "@mina/core",
+  "version": "0.0.2",
+  "description": "Core global config",
+  "author": "ffm <fengfuming2007@126.com>",
+  "homepage": "https://github.com/ITpandaffm/mina#readme",
+  "license": "ISC",
+  "main": "lib/core.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "files": [
+    "lib"
+  ],
+  "workspaces": "mina",
+  "publishConfig": {
+    "registry": "http://localhost:4873"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ITpandaffm/mina.git"
+  },
+  "scripts": {
+    "dev": "microbundle"
+  },
+  "bugs": {
+    "url": "https://github.com/ITpandaffm/mina/issues"
+  },
+  "dependencies": {
+    "microbundle": "^0.15.1"
+  },
+  "gitHead": "303b5836796d44bd36109da7b915dfaa9201e7d6"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "mina-libs",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^5.4.3"
+  },
+  "dependencies": {
+    "microbundle": "^0.15.1"
+  }
+}

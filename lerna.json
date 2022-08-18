@@ -1,0 +1,21 @@
+{
+  "$schema": "node_modules/lerna/schemas/lerna-schema.json",
+  "useNx": true,
+  "useWorkspaces": true,
+  "version": "0.0.2",
+  "command": {
+    "publish": {
+      "conventionalCommit": true,
+      "message": "[skip ci] chore: release"
+    }
+  },
+  "packages": [
+    "packages/*"
+  ],
+  "verstion": "independent",
+  "npmClient": "pnpm",
+  "ignoreChanges": [
+    "**/node_modules",
+    "**/__snapshots__/**"
+  ]
+}
