@@ -16,6 +16,11 @@
             "Dom"
         ],
         "baseUrl": "packages",
+        "paths": {
+            "@/cli/*": [
+                "packages/cli/src/*"
+            ],
+        }
     },
     "include": [
         "packages/**/*.ts",
@@ -25,9 +30,4 @@
         "node_modules",
         "!/packages/node_modules"
     ],
-    "paths": {
-        "@/cli/*": [
-            "packages/cli/src/*"
-        ],
-    }
 }
